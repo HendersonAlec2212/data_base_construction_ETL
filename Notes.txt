@@ -1,0 +1,5 @@
+Ask Kris to add to_csv to gun_deaths IPYNB
+
+Consider Clean_CSV folder and see if collection is sufficient
+
+lay out ERD in SQL following examples from section 09 homework
