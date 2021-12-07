@@ -9,9 +9,6 @@ what data used
 how data was manipulated
 # Analysis
 tables graphs
-
-# Analysis/Results
-
 # Results
 answers the questions
 # Conclusions
