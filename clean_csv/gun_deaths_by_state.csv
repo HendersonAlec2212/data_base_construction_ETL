@@ -587,8 +587,18 @@ North Carolina,2016,1150
 North Carolina,2017,1186
 North Carolina,2018,1172
 North Carolina,2019,1169
+North Dakota,1999,0
+North Dakota,2000,0
+North Dakota,2001,0
+North Dakota,2002,0
 North Dakota,2003,11
+North Dakota,2004,0
+North Dakota,2005,0
+North Dakota,2006,0
 North Dakota,2007,11
+North Dakota,2008,0
+North Dakota,2009,0
+North Dakota,2010,0
 North Dakota,2011,11
 North Dakota,2012,11
 North Dakota,2013,10
@@ -640,27 +650,27 @@ New Hampshire,2016,105
 New Hampshire,2017,117
 New Hampshire,2018,125
 New Hampshire,2019,136
-NJ,1999,339
-NJ,2000,294
-NJ,2001,328
-NJ,2002,387
-NJ,2003,428
-NJ,2004,406
-NJ,2005,391
-NJ,2006,469
-NJ,2007,415
-NJ,2008,393
-NJ,2009,363
-NJ,2010,411
-NJ,2011,444
-NJ,2012,407
-NJ,2013,466
-NJ,2014,437
-NJ,2015,446
-NJ,2016,453
-NJ,2017,449
-NJ,2018,382
-NJ,2019,331
+New Jersey,1999,339
+New Jersey,2000,294
+New Jersey,2001,328
+New Jersey,2002,387
+New Jersey,2003,428
+New Jersey,2004,406
+New Jersey,2005,391
+New Jersey,2006,469
+New Jersey,2007,415
+New Jersey,2008,393
+New Jersey,2009,363
+New Jersey,2010,411
+New Jersey,2011,444
+New Jersey,2012,407
+New Jersey,2013,466
+New Jersey,2014,437
+New Jersey,2015,446
+New Jersey,2016,453
+New Jersey,2017,449
+New Jersey,2018,382
+New Jersey,2019,331
 New Mexico,1999,197
 New Mexico,2000,235
 New Mexico,2001,174
@@ -808,27 +818,27 @@ Pennsylvania,2016,1423
 Pennsylvania,2017,1460
 Pennsylvania,2018,1541
 Pennsylvania,2019,1433
-RI,1999,37
-RI,2000,42
-RI,2001,31
-RI,2002,36
-RI,2003,26
-RI,2004,29
-RI,2005,30
-RI,2006,40
-RI,2007,23
-RI,2008,32
-RI,2009,35
-RI,2010,41
-RI,2011,20
-RI,2012,30
-RI,2013,37
-RI,2014,25
-RI,2015,34
-RI,2016,24
-RI,2017,27
-RI,2018,32
-RI,2019,31
+Rhode Island,1999,37
+Rhode Island,2000,42
+Rhode Island,2001,31
+Rhode Island,2002,36
+Rhode Island,2003,26
+Rhode Island,2004,29
+Rhode Island,2005,30
+Rhode Island,2006,40
+Rhode Island,2007,23
+Rhode Island,2008,32
+Rhode Island,2009,35
+Rhode Island,2010,41
+Rhode Island,2011,20
+Rhode Island,2012,30
+Rhode Island,2013,37
+Rhode Island,2014,25
+Rhode Island,2015,34
+Rhode Island,2016,24
+Rhode Island,2017,27
+Rhode Island,2018,32
+Rhode Island,2019,31
 South Carolina,1999,454
 South Carolina,2000,361
 South Carolina,2001,471
@@ -858,6 +868,7 @@ South Dakota,2003,11
 South Dakota,2004,16
 South Dakota,2005,17
 South Dakota,2006,25
+South Dakota,2007,0
 South Dakota,2008,25
 South Dakota,2009,24
 South Dakota,2010,15
@@ -955,15 +966,20 @@ Virginia,2017,683
 Virginia,2018,674
 Virginia,2019,663
 Vermont,1999,10
+Vermont,2000,0
 Vermont,2001,13
 Vermont,2002,22
+Vermont,2003,0
 Vermont,2004,12
+Vermont,2005,0
 Vermont,2006,13
 Vermont,2007,10
+Vermont,2008,0
 Vermont,2009,11
 Vermont,2010,12
 Vermont,2011,10
 Vermont,2012,11
+Vermont,2013,0
 Vermont,2014,20
 Vermont,2015,17
 Vermont,2016,33
@@ -1038,6 +1054,8 @@ Wyoming,2000,10
 Wyoming,2001,14
 Wyoming,2002,24
 Wyoming,2003,29
+Wyoming,2004,0
+Wyoming,2005,0
 Wyoming,2006,25
 Wyoming,2007,25
 Wyoming,2008,20
