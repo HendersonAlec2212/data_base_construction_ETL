@@ -1,9 +1,14 @@
 # README
 # Project_02_ETL
-Celena Blackwood, Alec Henderson, Amy Philippon and Kris Shaw
+Team members: Celena Blackwood, Alec Henderson, Kris Shaw and Amy Philippon
 
 # Introduction
-How do gun laws affect gun deaths? Group three looked at 
+According to Time Magazine there are 325 million people in America and more than 
+265 million guns.  31% of households in the US have firearms and 22% of American 
+adults personally own one or more firearms per UC Davis Health. In this ETL project 
+multiple sources were combined in a SQL database to perform analysis on gun 
+deaths in America. The database contains tables of gun deaths, gun licenses and 
+registrations, registered weapons, and gun laws. 
 
 # Extract
 Extract: indicates the original
@@ -22,13 +27,25 @@ level
 6. https://www.atf.gov/resource-center/data-statistics
 7. https://data.world/nkrishnaswami/gun-deaths-by-county
 
-**How formatted:**
-
 
 # Transform
- Transform: explains what data
+Transform: explains what data
 clearing or transformation was
 required at a professional level
+
+Data limitations included: paywalls; 
+data lacking a study over time; and
+weapon data that was too generic and we were unable to determine if the weapons were all firearms.
+
+(Registered Weapons by State)
+Data was pulled from the 2011 – 2021 Report on Firearms Commerce in the US, 
+located on the Bureau of Alcohol, Tobacco, Firearms and Explosives website. For 
+each year and state destructive devices which include bombs, grenades, and 
+rockets were removed along with silencers from the total registered weapons final 
+data set.  Weapons that remain are machineguns, short barreled rifles and 
+shotguns, pistols, and revolvers.  That data was placed in an excel file then 
+converted to csv. The total columns were configured into ascending order. 
+
 
 # Load
 Load: explains the final
