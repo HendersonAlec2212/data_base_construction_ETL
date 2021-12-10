@@ -43,6 +43,8 @@ The key is the 2 digit state abbreviation and the value is the full state name. 
 replace function to update the state names. After cleaning the data, we saved the dataframe to a
 CSV using the to_csv function.
 
+![Sum & GroupBy .png](Images/GROUPBY_and_SUM_Functions_Gun_Deaths.png) 
+
  summary_law_count_change
 This document started out as <national_gun_laws_per_year.xlsx>. It was read into an IPYNB via 
 pandas then trimmed of redundant columns.
@@ -53,7 +55,7 @@ time cycle
 
 Several csv files required transformations to break the "year" into its own column, this allowed the "state" name to be a primary key.
 
-![Sum & GroupBy .png](Images/GROUPBY_and_SUM_Functions_Gun_Deaths.png) 
+
 
 ** JOIN PNG HERE IF POSSIBLE **
 
