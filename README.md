@@ -55,9 +55,9 @@ time cycle
 Several csv files required transformations to break the "year" into its own column, this allowed the "state" name to be a primary key.
 
 ![atf1](Images/atf_trace_01.png)
-![atf2](Images/atf_trace_01.png)
-![atf3](Images/atf_trace_01.png)
-![atf4](Images/atf_trace_01.png)
+![atf2](Images/atf_trace_02.png)
+![atf3](Images/atf_trace_03.png)
+![atf4](Images/atf_trace_04.png)
 
 
 
