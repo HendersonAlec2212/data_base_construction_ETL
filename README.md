@@ -26,9 +26,6 @@ The datasets used are csv files from multiple sources.
 
 
 # Transform
-Transform: explains what data
-clearing or transformation was
-required at a professional level
 
 The "Registered Weapons by State" data was pulled from the 2011 through 2021 Report on Firearms Commerce in the US, located on the Bureau of Alcohol, Tobacco, Firearms and Explosives website. For each year and state destructive devices which include bombs, grenades, and rockets were removed along with silencers from the total registered weapons final data set.  Weapons that remain are machineguns, short barreled rifles and shotguns, pistols, and revolvers.  That weapons data was placed in an excel file then converted to csv. The total weapon columns were configured into ascending order by year. 
 
@@ -50,8 +47,12 @@ pandas then trimmed of redundant columns. The count of laws totals were grouped 
 assigned to data frames representing the start and end before being joined to make one data frame.
 The final data frame displayed values of the number of laws present at the beginning and end of the ten year time cycle. 
 
-Database normalization was required for several csv files. The files required transformations to break the "year" into its own column allowing the "state" name 
-to be the assigned primary key.
+![summary_law_count_change_01](https://user-images.githubusercontent.com/88807979/145514133-bf7ec55e-1afd-4455-9952-345ec85c0116.png)
+![summary_law_count_change_03](https://user-images.githubusercontent.com/88807979/145514150-4d03aa1b-28c7-429d-ba4b-cbd95f064abe.png)
+![summary_law_count_change_04](https://user-images.githubusercontent.com/88807979/145514184-7840d4ce-11bc-475d-ae05-d836f4646237.png)
+
+To obtain a dataset of confiscated weapons, "master_traced_firearms", a bot was made to find and click download links on the ATF website.  The seven files were read into a IPYNB.  Extraneous columns were cut and remaining columns were renamed.  
+All columns were merged into one cohesive DataFrame.  
 
 ![atf1](Images/atf_trace_01.png)
 ![atf2](Images/atf_trace_02.png)
@@ -59,6 +60,8 @@ to be the assigned primary key.
 ![atf4](Images/atf_trace_04.png)
 
 
+Database normalization was required for several csv files. The files required transformations to break the "year" into its own column allowing the "state" name 
+to be the assigned primary key.
 
 Data limitations for the project included: paywalls; 
 some data inconsistences or lacking over a peroid of time; and
@@ -75,11 +78,6 @@ during that given year.
 We also loaded a data set that contained the total number of registered firearms and issued 
 firearm licenses per state. With this data set we can see if we can find any correlation between 
 the gun deaths and the states that have the most issued gun licenses and/or registered firearms.
-
-atf.gov_clicker & atf_trace_merge
-A bot was made to find and click download links.
-The seven files were read into a IPYNB, extraneous columns were cut and then remaining columns 
-were renamed and merged into one cohesive Data Frame.
 
 ![ERD](Images/QuickDBD-Project_02.png)
 
