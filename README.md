@@ -52,8 +52,12 @@ The law totals were grouped and assigned to a list according by state, then the 
 assigned to data frames representing the start and end before being joined to make one data frame.
 The final data frame gave values to display the number of laws present at the beginning and end of the 
 time cycle
-
 Several csv files required transformations to break the "year" into its own column, this allowed the "state" name to be a primary key.
+
+![atf1](Images/atf_trace_01.png)
+![atf2](Images/atf_trace_01.png)
+![atf3](Images/atf_trace_01.png)
+![atf4](Images/atf_trace_01.png)
 
 
 
