@@ -84,7 +84,8 @@ A bot was made to find and click download links.
 The seven files were read into a IPYNB, extraneous columns were cut and then remaining columns 
 were renamed and merged into one cohesive Data Frame.
 
-** ERD PNG GOES HERE **
+![ERD](Images/QuickDBD-Project_02.png)
+
 
 ** SQL explanation here **
 
