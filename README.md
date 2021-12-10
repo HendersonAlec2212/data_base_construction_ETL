@@ -6,9 +6,9 @@ Team members: Celena Blackwood, Alec Henderson, Kris Shaw and Amy Philippon
 According to Time Magazine there are 325 million people in America and more than 
 265 million guns.  31% of households in the US have firearms and 22% of American 
 adults personally own one or more firearms per UC Davis Health. In this ETL project 
-multiple sources were combined in a SQL database to perform analysis on gun 
-deaths in America. The database contains tables of gun deaths, gun licenses and 
-registrations, registered weapons, and gun laws. 
+multiple sources were combined in a SQL database to supply opportunity to perform analysis on gun 
+deaths in America. The database contains tables of gun deaths and rates, gun licenses and 
+registrations, registered weapons, and gun laws throughout the United States. 
 
 # Extract
 The datasets used are csv files from multiple sources.
@@ -30,7 +30,7 @@ Transform: explains what data
 clearing or transformation was
 required at a professional level
 
-The "Registered Weapons by State" data was pulled from the 2011 – 2021 Report on Firearms Commerce in the US, located on the Bureau of Alcohol, Tobacco, Firearms and Explosives website. For each year and state destructive devices which include bombs, grenades, and rockets were removed along with silencers from the total registered weapons final data set.  Weapons that remain are machineguns, short barreled rifles and shotguns, pistols, and revolvers.  That data was placed in an excel file then converted to csv. The total columns were configured into ascending order. 
+The "Registered Weapons by State" data was pulled from the 2011 through 2021 Report on Firearms Commerce in the US, located on the Bureau of Alcohol, Tobacco, Firearms and Explosives website. For each year and state destructive devices which include bombs, grenades, and rockets were removed along with silencers from the total registered weapons final data set.  Weapons that remain are machineguns, short barreled rifles and shotguns, pistols, and revolvers.  That weapons data was placed in an excel file then converted to csv. The total weapon columns were configured into ascending order by year. 
 
 To compare how gun laws impact gun deaths on a per state basis we pulled a data set, "Gun Deaths by State by Year" from 
 Data.world that contains the total number of gun deaths in the US by county from 1999 – 2019. 
@@ -45,14 +45,13 @@ CSV using the to_csv function.
 
 ![Sum & GroupBy .png](Images/GROUPBY_and_SUM_Functions_Gun_Deaths.png) 
 
- summary_law_count_change
-This document started out as <national_gun_laws_per_year.xlsx>. It was read into an IPYNB via 
-pandas then trimmed of redundant columns.
-The law totals were grouped and assigned to a list according by state, then the first and last entries were
+The "summary_law_count_change" file started out as <national_gun_laws_per_year.xlsx>. It was read into an IPYNB via 
+pandas then trimmed of redundant columns. The count of laws totals were grouped and assigned to a list by state, then the first and last entries were
 assigned to data frames representing the start and end before being joined to make one data frame.
-The final data frame gave values to display the number of laws present at the beginning and end of the 
-time cycle
-Several csv files required transformations to break the "year" into its own column, this allowed the "state" name to be a primary key.
+The final data frame displayed values of the number of laws present at the beginning and end of the ten year time cycle. 
+
+Database normalization was required for several csv files. The files required transformations to break the "year" into its own column allowing the "state" name 
+to be the assigned primary key.
 
 ![atf1](Images/atf_trace_01.png)
 ![atf2](Images/atf_trace_02.png)
@@ -61,11 +60,9 @@ Several csv files required transformations to break the "year" into its own colu
 
 
 
-** JOIN PNG HERE IF POSSIBLE **
-
-Data limitations included: paywalls; 
-data lacking a study over time; and
-weapon data that was too generic making us unable to determine if the weapons were all firearms.
+Data limitations for the project included: paywalls; 
+some data inconsistences or lacking over a peroid of time; and
+weapon data that was too generic making us unable to determine if the weapons were all firearms for some datasets.
 
 # Load
 After loading the data, we can run a detailed analysis to see if we can draw a correlation 
