@@ -82,6 +82,6 @@ the gun deaths and the states that have the most issued gun licenses and/or regi
 ![ERD](Images/QuickDBD-Project_02.png)
 
 
-** SQL explanation here **
+All csv files were imported to PostgreSql and 7 tables were made.
 
 
