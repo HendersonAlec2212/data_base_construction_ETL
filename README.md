@@ -70,6 +70,8 @@ weapon data that was too generic making us unable to determine if the weapons we
 # Load
 All csv files were imported to PostgreSql and 7 tables were made.
 
+ERD:
+
 ![project 2 ERD final](https://user-images.githubusercontent.com/88807979/145662975-cf61e1cd-107b-4bcc-9770-f63722be16fe.png)
 
 Schema:
