@@ -79,7 +79,7 @@ We also loaded a data set that contained the total number of registered firearms
 firearm licenses per state. With this data set we can see if we can find any correlation between 
 the gun deaths and the states that have the most issued gun licenses and/or registered firearms.
 
-![ERD](Images/QuickDBD-Project_02.png)
+![project 2 ERD final](https://user-images.githubusercontent.com/88807979/145662975-cf61e1cd-107b-4bcc-9770-f63722be16fe.png)
 
 
 All csv files were imported to PostgreSql and 7 tables were made.
