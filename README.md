@@ -68,6 +68,12 @@ some data inconsistences or lacking over a peroid of time; and
 weapon data that was too generic making us unable to determine if the weapons were all firearms for some datasets.
 
 # Load
+All csv files were imported to PostgreSql and 7 tables were made.
+
+![project 2 ERD final](https://user-images.githubusercontent.com/88807979/145662975-cf61e1cd-107b-4bcc-9770-f63722be16fe.png)
+
+![Schema](https://user-images.githubusercontent.com/88807979/145690255-2fb9909b-5f92-4ae1-99ef-4322f42e54e8.png)
+
 After loading the data, we can run a detailed analysis to see if we can draw a correlation 
 between how many gun laws a state has versus how many gun deaths that state had for a given 
 year ranging from 1999 - 2019. Do more gun laws in a state decrease the number of gun deaths 
@@ -78,10 +84,4 @@ during that given year.
 We also loaded a data set that contained the total number of registered firearms and issued 
 firearm licenses per state. With this data set we can see if we can find any correlation between 
 the gun deaths and the states that have the most issued gun licenses and/or registered firearms.
-
-![project 2 ERD final](https://user-images.githubusercontent.com/88807979/145662975-cf61e1cd-107b-4bcc-9770-f63722be16fe.png)
-
-
-All csv files were imported to PostgreSql and 7 tables were made.
-
 
