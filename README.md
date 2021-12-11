@@ -72,9 +72,7 @@ All csv files were imported to PostgreSql and 7 tables were made.
 
 ![project 2 ERD final](https://user-images.githubusercontent.com/88807979/145662975-cf61e1cd-107b-4bcc-9770-f63722be16fe.png)
 
-![Schema](https://user-images.githubusercontent.com/88807979/145690255-2fb9909b-5f92-4ae1-99ef-4322f42e54e8.png)
-
-![schema2](https://user-images.githubusercontent.com/88807979/145690365-2c35dde6-33e8-47c5-8661-5678f3437709.png)
+![schema try3](https://user-images.githubusercontent.com/88807979/145690606-d31d47a3-53e4-4baf-b75c-9f23d8f04398.png)![schema2](https://user-images.githubusercontent.com/88807979/145690365-2c35dde6-33e8-47c5-8661-5678f3437709.png)
 
 After loading the data, we can run a detailed analysis to see if we can draw a correlation 
 between how many gun laws a state has versus how many gun deaths that state had for a given 
