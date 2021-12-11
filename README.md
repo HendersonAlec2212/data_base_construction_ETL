@@ -74,6 +74,8 @@ All csv files were imported to PostgreSql and 7 tables were made.
 
 ![Schema](https://user-images.githubusercontent.com/88807979/145690255-2fb9909b-5f92-4ae1-99ef-4322f42e54e8.png)
 
+![schema2](https://user-images.githubusercontent.com/88807979/145690365-2c35dde6-33e8-47c5-8661-5678f3437709.png)
+
 After loading the data, we can run a detailed analysis to see if we can draw a correlation 
 between how many gun laws a state has versus how many gun deaths that state had for a given 
 year ranging from 1999 - 2019. Do more gun laws in a state decrease the number of gun deaths 
