@@ -89,3 +89,5 @@ We also loaded a data set that contained the total number of registered firearms
 firearm licenses per state. With this data set we can see if we can find any correlation between 
 the gun deaths and the states that have the most issued gun licenses and/or registered firearms.
 
+Email: hendersonalec2212@gmail.com
+LinkedIn: https://www.linkedin.com/in/alec-henderson-8011b521a/
